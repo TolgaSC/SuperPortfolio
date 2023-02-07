@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Didact';
+    src: url('../font/DidactGothic-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Fjalla';
+    src: url('../font/FjallaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../font/WorkSans-VariableFont_wght.ttf');
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Didact';
+}
+
+header h1:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+header p {
+    font-family: 'WorkSans';
+    margin-bottom: 80px;
+}
+
+header p:nth-of-type(2) {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 120px;
+}
+
+.h3 {
+    color: #fff;
+
+}
+
+.section_two {
+    background-image: url('../img/portfolio2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    color: #fff;
+    filter: contrast(150%);
+}
+
+.section_first_p {
+    margin-left: 200px;
+    padding-top: 170px;  
+    font-family: 'WorkSans';
+}
+
+.section_two h2 {
+    font-family: 'Didact';
+    margin-left: 190px;
+    padding-top: 50px;
+    font-size: 150px;
+}
+
+
+.section_second_p {
+    margin-left: 200px;
+    padding-top: 30px;  
+    font-family: 'WorkSans';
+    font-size: 15px;
+    color: #666;
+}
+
+.section_two h3 {
+    font-family: 'Fjalla';
+    font-size: 220px;
+    text-align: right;
+    padding-right: 80px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.section_third_p {
+    display: block;
+    font-family: 'WorkSans';
+    margin-left: 200px;
+    margin-top: 90px; 
+    padding: 20px;
+    width: 80px;
+    border: 3px solid #666;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.section_third_p:hover {
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #fff;
+}
+
+.section_third_p:hover+h3 {
+    color: #fff;
+}
+
+
+.divein {
+    display: block;
+    color:#000;
+    font-family: 'WorkSans';
+    border: 3px solid #000;
+    margin-left: 200px;
+    margin-top: 90px; 
+    padding: 20px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+.section_three {
+    background-image: url('../img/portfolio3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+    color: #666;
+}
+
+.section_three h2 {
+    font-family: 'Didact';
+    margin-left: 195px;
+    padding-top: 50px;
+    font-size: 150px;
+    color: #000;
+}
+
+.section_three h3 {
+    font-family: 'Fjalla';
+    font-size: 220px;
+    text-align: right;
+    padding-right: 80px;
+    color: rgba(163, 163, 163, 0.2);
+}
+
+.section_three h3:hover {
+    color: #000;
+}
+
+.section_four {
+    background-image: url('../img/portfolio4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: #666;
+}
+
+.section_four h2 {
+    font-family: 'Didact';
+    margin-left: 195px;
+    padding-top: 50px;
+    font-size: 150px;
+    color: #fff;
+}
+
+.galitos {
+    color: lightgray;
+    margin-left: 200px;
+    padding-top: 30px;
+    font-family: 'WorkSans';
+    font-size: 15px;
+}
+
+.section_four h3 {
+    font-family: 'Fjalla';
+    font-size: 220px;
+    text-align: right;
+    padding-right: 80px;
+
+    
+}
+
+.section_fifth {
+    background-image: url('../img/portfolio5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    color: #000;
+}
+
+.section_fifth h2 {
+    margin-left: 200px;
+    padding-top: 50px;
+    font-size: 100px;
+    font-family: 'Didact';
+}
+
+.section_fifth h3 {
+    font-family: 'Fjalla';
+    color: #666;
+    font-size: 220px;
+    text-align: right;
+    padding-right: 80px;
+    margin-bottom: 80px;
+}
+
+.section_more {
+    height: 1000px;
+    background-color: #000;
+    color: #fff;
+}
+
+.section_more h2 {
+    font-family: 'Didact';
+    display: block;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 190px;
+    letter-spacing: -5px;
+}
+
+.section_more p {
+    font-family: 'WorkSans';
+    display: block;
+    margin-right: 100px;
+    margin-left: 700px;
+    padding-top: 150px;
+    text-align: left;
+    width: 510px;
+    font-size: 20px;
+    color: #666;
+}
+
+.supermail {
+    font-family: 'Didact';
+    display: block;
+    margin-right: 100px;
+    margin-left: 700px;
+    padding-top: 50px;
+    text-align: left;
+    width: 510px;
+    font-size: 60px;
+    text-decoration: none;
+    color: #fff;
+}
+
+supermail:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 1100px;
+    text-align: center;
+}
+
+.footer_a {
+    font-family: 'Didact';
+    margin-top: 200px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 150px;
+    text-align: center;
+}
+
+.footer_a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 500px;
+    height: 500px;
+}
